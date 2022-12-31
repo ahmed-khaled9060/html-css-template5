@@ -1,0 +1,275 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Alegreya", serif;
+  list-style: none;
+}
+/* start home section */
+.home {
+  height: 130vh;
+  background-image: url(../images/drew-coffman-1872.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+header {
+  padding: 20px 50px;
+}
+header img {
+  height: 48px;
+  float: left;
+}
+header .nav-bar {
+  float: right;
+  width: 70%;
+  text-align: right;
+  padding-top: 15px;
+}
+header .nav-bar li {
+  display: inline-block;
+  padding:  0 20px;
+  font-size: 18px;
+}
+header .nav-bar li a {
+  text-decoration: none;
+  color: white;
+}
+header .clear {
+  clear: both;
+}
+.home .content {
+  text-align: center;
+  margin: 150px auto;
+  width: 55%;
+}
+.home .content p {
+  color: rgba(255, 255, 255, 0.92);
+  font-size: 22px;
+  margin-bottom: 18px;
+}
+.home .content h1 {
+  color: white;
+  margin-bottom: 22px;
+  font-size: 76px;
+}
+.home .content .second-p {
+  font-size: 22px;
+  margin: 10px 0 20px;
+}
+.home .content .buttons {
+  margin: 30px 0 0;
+}
+.home .buttons button {
+  color: white;
+  padding: 15px 28px;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.home .buttons .btn-1 {
+  background-color: #8e7745;
+  border: 2px solid transparent;
+  margin-bottom: 12px;
+}
+.home .buttons .btn-2 {
+  background-color: transparent;
+  border: 2px solid white;
+  margin: 0 0 12px 12px;
+}
+/* end home section */
+/* start who we are section */
+.who {
+  padding: 100px 0;
+  text-align: center;
+}
+.who img {
+  width: 40%;
+  margin-right: 40px;
+}
+.who .content {
+  display: inline-block;
+  width: 40%;
+  margin-left: 40px;
+  text-align: left;
+}
+.who .content h2 {
+  color: #303030;
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+.who .content p {
+  color: #686868;
+  font-size: 17px;
+  margin-bottom: 30px;
+  line-height: 2;
+}
+.who .content .feature span {
+  color: #686868;
+}
+.who .content .feature i {
+  width: 45px;
+  margin: 10px 10px 10px 0;
+  border: 1px solid brown;
+  border-radius: 50%;
+  padding: 10px;
+  color: brown;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+/* end who we are section */
+/* start our location section */
+.our-location {
+  height: 100vh;
+  padding: 100px 0;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+.our-location img {
+  width: 40%;
+  margin-left: 40px;
+}
+.our-location .content {
+  width: 40%;
+  display: inline-block;
+  margin-right: 40px;
+  text-align: left;
+}
+.our-location .content h2 {
+  color: #303030;
+  margin-bottom: 25px;
+  font-size: 32px;
+}
+.our-location .content p {
+  color: #686868;
+  margin-bottom: 30px;
+  font-size: 17px;
+  line-height: 1.7;
+}
+/* end our location section */
+/* start our baking section */
+.our-baking {
+  padding: 100px 0;
+  text-align: center;
+}
+.heading {
+  margin-bottom: 60px;
+}
+.our-baking .heading h3 {
+  font-size: 30px;
+  color: #303030;
+}
+.our-baking .heading p {
+  margin-top: 20px;
+  color: #888888;
+  font-size: 18px;
+}
+.our-baking .type {
+  width: 25%;
+  display: inline-block;
+  margin: 0 20px;
+}
+.our-baking .type img {
+  width: 100%;
+}
+.our-baking .type h4 {
+  font-size: 22px;
+  color: #303030;
+  padding: 25px 0;
+}
+.our-baking .type p {
+  font-size: 16px;
+  color: #686868;
+  line-height: 1.7;
+}
+/* end our baking section */
+/* start contact section */
+.contact {
+  padding: 100px 0;
+  background-color: #f8f8f8;
+  height: 100vh;
+}
+.contact .info {
+  float: left;
+  width: 40%;
+  margin: 0 60px;
+}
+.contact .info h2 {
+  color: #303030;
+  margin-bottom: 25px;
+  font-size: 32px;
+}
+.contact .info p {
+  color: #686868;
+  font-size: 17px;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+.contact .info ul li {
+  padding: 10px 0 10px;
+  color: #686868;
+}
+.contact .info ul li i {
+  margin-right: 10px;
+  width: 35px;
+  border-radius: 50%;
+  background-color: #8e7745;
+  padding: 10px;
+  color: white;
+}
+.contact iframe {
+  float: right;
+  width: 40%;
+  margin: 0 60px;
+}
+/* end contact section */
+/* start footer section */
+.footer {
+  padding: 40px 0;
+  height: 70vh;
+  background-color: #403d38;
+}
+.footer .section {
+  float: left;
+  width: 20%;
+  margin: 2.5%;
+}
+.footer .section h4 {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+.footer .section p {
+  color: #969696;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.footer .section ul li {
+  padding: 15px 15px 15px 0;
+  color: #969696;
+}
+.footer .section ul li i {
+  font-size: 18px;
+  margin-right: 15px;
+}
+/* end footer section */
+.footer-last {
+  height: 50vh;
+  background-color: #353330;
+  text-align: center;
+  padding: 50px 0;
+}
+.footer-last p {
+  margin: 30px 0 40px;
+  color: wheat;
+}
+.footer-last i {
+  width: 35px;
+  border-radius: 50%;
+  color: wheat;
+  background-color:#403d38;
+  padding: 10px;
+  margin: 0 5px;
+}
